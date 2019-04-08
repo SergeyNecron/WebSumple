@@ -4,7 +4,6 @@
     <title></title>
 </head>
 <body>
-Введите имя:
 ${name}
 </body>
 </html>
