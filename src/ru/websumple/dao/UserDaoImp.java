@@ -13,10 +13,9 @@ public class UserDaoImp implements UserDao {
    private final Storage storage = INSTANCE.getStorage();
 
     @Override
-//    public User getUser(int id) {
-//        return storage.getUser(id);
-//    }
-       public User getUser(int id) { return new User(1,"Вася");}
+    public User getUser(int id) {
+        return storage.getUser(id);
+    }
 
     @Override
     public List<User> getUsers() {

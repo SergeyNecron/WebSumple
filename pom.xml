@@ -13,6 +13,7 @@
         <maven.version>3.3</maven.version>
         <lombok.version>1.16.22</lombok.version>
         <javaee.version>5</javaee.version>
+        <junit.version>4.12</junit.version>
 
     </properties>
     <dependencies>
@@ -33,6 +34,12 @@
             <groupId>javaee</groupId>
             <artifactId>javaee-api</artifactId>
             <version>${javaee.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
